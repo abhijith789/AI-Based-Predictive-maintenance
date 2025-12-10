@@ -1,0 +1,100 @@
+# ==========================================================
+# Python
+# ==========================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.dylib
+*.exe
+
+# ==========================================================
+# Jupyter / Notebooks
+# ==========================================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Notebook checkpoints backup files
+*.bak
+*.swp
+*.swo
+
+# ==========================================================
+# Logs & temp files
+# ==========================================================
+logs/
+*.log
+*.tmp
+*.temp
+
+# ==========================================================
+# Data files
+# ==========================================================
+# Synthetic training data
+synthetic_sensor_data.csv
+
+# Any derived datasets
+*.csv
+*.parquet
+
+# If you want to track specific datasets, remove the above patterns.
+
+# ==========================================================
+# Model artifacts
+# ==========================================================
+*.joblib
+*.pkl
+*.h5
+*.onnx
+*.pt
+
+# ==========================================================
+# FastAPI / Uvicorn cache
+# ==========================================================
+*.pid
+*.db
+
+# ==========================================================
+# OS-specific (Windows / macOS / Linux)
+# ==========================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux temp
+*~
+.cache/
+
+# ==========================================================
+# VSCode, PyCharm, IDEs
+# ==========================================================
+.vscode/
+.idea/
+*.iml
+
+# ==========================================================
+# Environment config
+# ==========================================================
+.env
+*.env
+.env.*
